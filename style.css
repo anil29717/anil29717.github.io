@@ -1,0 +1,132 @@
+*{
+    font-family:'Open Sans', sans-serif,'Times New Roman', Times, serif;
+    margin:0px;
+    padding:0px;
+}
+body{
+    
+    background-color: #edede9;
+    
+}
+
+header{
+    display: flex;
+    background-color: #fff;
+
+    justify-content: space-around;
+    position: relative;
+    height: 10vh;
+    align-items: center;
+    font-size: 1.3rem;
+}
+header #name{
+    color:#390099;
+    font-weight: 800 !important;
+    font-size: 1.5rem;
+    background-color: inherit;
+}
+header #options {
+    display: flex;
+    margin-left: 1rem;
+    background-color: inherit;
+    
+    font-weight:600;
+    
+}
+header #options a{
+    display: flex;
+    margin-left: 20px;
+    text-decoration: none;
+    color:black;
+    background-color: inherit;
+    font-size: large;
+}
+header img{
+    position:absolute;
+    width:45px;
+    left:10%;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #390099;;
+}
+/* ------------------------------ */
+/* main */
+
+main{
+    display: flex;
+    background-color: #fff;
+    position: relative;
+    top:0.5vh;
+    height: 75vh;
+
+}
+main div{
+    height:88%;
+}
+
+main h1{
+    font-size: 2.5rem;    
+}
+main #h_space{
+    margin-bottom: 15px;
+}
+main p{
+    font-size:0.9rem;
+    color:#495057;
+    line-height: 1.7rem;
+    max-width:60%;
+   
+}
+
+main div img{
+    height: 61vh;
+    /* border-radius: 50%; */
+
+    /* border:3px solid black; */
+}
+
+main #intro{
+    position: relative;
+    top:12%;
+    left:10%;
+}
+main #photo{
+    position: relative;
+    top:9%;
+    right:10%;
+}
+/* #####buttons#### */
+main div .click{
+    padding:0.5rem 1.1rem;
+    font-weight: 600;
+    border:0.1rem solid #390099;
+    border-radius: 3px;
+    margin-top:5%;
+}
+main div #hire_me{
+    background-color:#390099;
+    color:white
+}
+main div #portfolio{
+    background-color:#fff;
+    color:#390099;
+}
+
+/* ----------------------------- */
+/* links */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 14vh;
+    margin-top:10px;
+    z-index: 100;
+
+}
+footer img{
+    width:2.5%;
+    margin-right:3%;
+    /* border-radius: 50%; */
+}
+
